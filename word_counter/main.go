@@ -7,6 +7,8 @@ import (
 	"os"
 )
 
+// TODO  basic word counter will add more functionality leter...
+
 func count(r io.Reader) int {
 	scanner := bufio.NewScanner(r)
 
